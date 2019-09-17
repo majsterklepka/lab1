@@ -1,2 +1,2 @@
-# lab1
+# Electronics Workshops
 electronics laboratory
