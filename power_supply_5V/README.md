@@ -7,7 +7,7 @@ Hi! Here we have a module of standard (constant)voltage output +5V. Module is bu
 
 Project was made with use of [KiCad](http://http://kicad-pcb.org/ "KiCad an Open Source EDA Software") an Open Source EDA Software. Here we have a schematic sheet of the circuit:
 
-![pict. 2](https://github.com/majsterklepka/lab1/raw/master/power_supply_5V/drawings/powersupply5V-sheets.png "Schematic Sheet of Power Supply Module") 
+![pict. 2](https://github.com/majsterklepka/lab1/raw/master/power_supply_5V/drawings/powersupply5V-sheet.png "Schematic Sheet of Power Supply Module") 
 
 And as for previous projects, I made PCB layout project:
 
