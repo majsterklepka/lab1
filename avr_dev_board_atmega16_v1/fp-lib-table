@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name avr_dev_board_atmega16)(type KiCad)(uri ${KIPRJMOD}/avr_dev_board_atmega16.pretty)(options "")(descr PinConnectors))
+  (lib (name connectors-mylibrary)(type KiCad)(uri ${KIPRJMOD}/connectors-mylibrary.pretty)(options "")(descr ""))
 )
