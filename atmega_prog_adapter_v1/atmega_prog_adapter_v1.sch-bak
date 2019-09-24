@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+LIBS:atmega_prog_adapter_v1-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ATmega programmer adapter"
+Date "2019-09-24"
+Rev "1.0"
+Comp "mgr inż. Paweł Sobótka"
+Comment1 "GNU GPLv3"
+Comment2 "ATmega48A/PA/88A/PA/168A/PA/328/P"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AVR-ISP-10 J1
+U 1 1 5D88F0F0
+P 7195 4200
+F 0 "J1" H 6915 4296 50  0000 R CNN
+F 1 "AVR-ISP-10" H 6915 4205 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" V 6945 4250 50  0001 C CNN
+F 3 " ~" H 5920 3650 50  0001 C CNN
+	1    7195 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-PU U1
+U 1 1 5D8917EB
+P 4550 4000
+F 0 "U1" H 3906 4046 50  0000 R CNN
+F 1 "ATmega48A/PA/88A/PA/168A/PA/328/P" V 4355 4660 50  0000 R CNN
+F 2 "Socket:DIP_Socket-28_W6.9_W7.62_W10.16_W12.7_W13.5_3M_228-4817-00-0602J" H 4550 4000 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 4550 4000 50  0001 C CNN
+	1    4550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D892234
+P 3650 3055
+F 0 "C1" H 3765 3101 50  0000 L CNN
+F 1 "0.1u" H 3765 3010 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3688 2905 50  0001 C CNN
+F 3 "~" H 3650 3055 50  0001 C CNN
+	1    3650 3055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D8926C3
+P 5595 3920
+F 0 "R1" H 5665 3966 50  0000 L CNN
+F 1 "10k" H 5665 3875 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5525 3920 50  0001 C CNN
+F 3 "~" H 5595 3920 50  0001 C CNN
+	1    5595 3920
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D892A87
+P 5805 2800
+F 0 "R2" V 5598 2800 50  0000 C CNN
+F 1 "470" V 5689 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5735 2800 50  0001 C CNN
+F 3 "~" H 5805 2800 50  0001 C CNN
+	1    5805 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5D892E00
+P 6300 2800
+F 0 "D1" H 6293 2545 50  0000 C CNN
+F 1 "YELLOW" H 6293 2636 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 6300 2800 50  0001 C CNN
+F 3 "~" H 6300 2800 50  0001 C CNN
+	1    6300 2800
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5150 3400
+NoConn ~ 5150 3500
+NoConn ~ 5150 3000
+NoConn ~ 5150 2900
+Wire Wire Line
+	5150 4300 5595 4300
+Text Label 5520 4300 2    50   ~ 0
+RESET
+Text Label 5500 3100 2    50   ~ 0
+MOSI
+Text Label 5510 3200 2    50   ~ 0
+MISO
+Text Label 5515 3300 2    50   ~ 0
+SCK
+$Comp
+L power:GND #PWR03
+U 1 1 5D89B9A8
+P 6650 2930
+F 0 "#PWR03" H 6650 2680 50  0001 C CNN
+F 1 "GND" H 6655 2757 50  0000 C CNN
+F 2 "" H 6650 2930 50  0001 C CNN
+F 3 "" H 6650 2930 50  0001 C CNN
+	1    6650 2930
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2800 6650 2930
+Wire Wire Line
+	6650 2800 6450 2800
+Wire Wire Line
+	6150 2800 5955 2800
+Wire Wire Line
+	5655 2800 5150 2800
+Wire Wire Line
+	5595 4070 5595 4300
+Connection ~ 5595 4300
+NoConn ~ 5150 3700
+NoConn ~ 5150 3800
+NoConn ~ 5150 3900
+NoConn ~ 5150 4000
+NoConn ~ 5150 4100
+NoConn ~ 5150 4200
+NoConn ~ 5150 4500
+NoConn ~ 5150 4600
+NoConn ~ 5150 4700
+NoConn ~ 5150 4800
+NoConn ~ 5150 4900
+NoConn ~ 5150 5000
+NoConn ~ 5150 5100
+NoConn ~ 5150 5200
+$Comp
+L power:GND #PWR02
+U 1 1 5D8A46E1
+P 4550 5755
+F 0 "#PWR02" H 4550 5505 50  0001 C CNN
+F 1 "GND" H 4555 5582 50  0000 C CNN
+F 2 "" H 4550 5755 50  0001 C CNN
+F 3 "" H 4550 5755 50  0001 C CNN
+	1    4550 5755
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5755 4550 5500
+$Comp
+L power:GND #PWR01
+U 1 1 5D8AB98E
+P 3650 3305
+F 0 "#PWR01" H 3650 3055 50  0001 C CNN
+F 1 "GND" H 3655 3132 50  0000 C CNN
+F 2 "" H 3650 3305 50  0001 C CNN
+F 3 "" H 3650 3305 50  0001 C CNN
+	1    3650 3305
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5D8ABDD5
+P 7295 4735
+F 0 "#PWR04" H 7295 4485 50  0001 C CNN
+F 1 "GND" H 7300 4562 50  0000 C CNN
+F 2 "" H 7295 4735 50  0001 C CNN
+F 3 "" H 7295 4735 50  0001 C CNN
+	1    7295 4735
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7295 4600 7295 4650
+Wire Wire Line
+	3650 3205 3650 3305
+Wire Wire Line
+	3950 2800 3650 2800
+Wire Wire Line
+	3650 2800 3650 2905
+Wire Wire Line
+	4650 2300 4650 2500
+Wire Wire Line
+	4550 2500 4550 2300
+Connection ~ 4550 2300
+Wire Wire Line
+	4550 2300 4650 2300
+Wire Wire Line
+	3650 2800 3650 2300
+Connection ~ 3650 2800
+Wire Wire Line
+	3650 2300 4055 2300
+Wire Wire Line
+	5595 3770 5595 2300
+Connection ~ 4650 2300
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5D8BECEA
+P 4055 2300
+F 0 "#FLG01" H 4055 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 4055 2473 50  0000 C CNN
+F 2 "" H 4055 2300 50  0001 C CNN
+F 3 "~" H 4055 2300 50  0001 C CNN
+	1    4055 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4055 2300
+Wire Wire Line
+	4055 2300 4550 2300
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5D8C0185
+P 7295 4650
+F 0 "#FLG02" H 7295 4725 50  0001 C CNN
+F 1 "PWR_FLAG" V 7295 4778 50  0000 L CNN
+F 2 "" H 7295 4650 50  0001 C CNN
+F 3 "~" H 7295 4650 50  0001 C CNN
+	1    7295 4650
+	0    1    1    0   
+$EndComp
+Connection ~ 7295 4650
+Wire Wire Line
+	7295 4650 7295 4735
+Wire Wire Line
+	5595 4300 6795 4300
+Wire Wire Line
+	6795 4200 5990 4200
+Wire Wire Line
+	5990 4200 5990 3300
+Wire Wire Line
+	5150 3300 5990 3300
+Wire Wire Line
+	6255 3200 6255 4000
+Wire Wire Line
+	6255 4000 6795 4000
+Wire Wire Line
+	5150 3200 6255 3200
+Wire Wire Line
+	6410 3100 6410 4100
+Wire Wire Line
+	6410 4100 6795 4100
+Wire Wire Line
+	5150 3100 6410 3100
+Wire Wire Line
+	7295 3700 7295 2300
+Wire Wire Line
+	4650 2300 5595 2300
+Connection ~ 5595 2300
+Wire Wire Line
+	5595 2300 7295 2300
+Wire Notes Line
+	3500 2000 8500 2000
+Wire Notes Line
+	8500 2000 8500 6000
+Wire Notes Line
+	8500 6000 3450 6000
+Wire Notes Line
+	3450 6000 3450 2000
+Text Notes 4000 2000 2    50   ~ 0
+Adapter block 
+$EndSCHEMATC
