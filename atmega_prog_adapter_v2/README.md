@@ -24,7 +24,7 @@ Of course this adapter needs to work a programmer, for example: USBasp or Arduin
 
 and here, is shown a 2d view of PCB Layout:
 
-![pict. 3](https://github.com/majsterklepka/lab1/raw/master/atmega_prog_adapter_vc2/drawings/atmega_prog_adapter_v2-brd.png "ATmega Adapter 2D view of PCB")
+![pict. 3](https://github.com/majsterklepka/lab1/raw/master/atmega_prog_adapter_v2/drawings/atmega_prog_adapter_v2-brd.png "ATmega Adapter 2D view of PCB")
 
 These all programmers, their projects are published in my repository [here](https://github.com/majsterklepka/avr-programmers.git "MajsterKlepka AVR-PROGRAMMERS Repo")
 
