@@ -1,4 +1,4 @@
-(pcb /home/majsterklepka/Dokumenty/Kicad/atmega_prog_adapter_v2/atmega_prog_adapter_v2.dsn
+(pcb /home/majsterklepka/git/lab1/atmega_prog_adapter_v2/atmega_prog_adapter_v2.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -37,10 +37,10 @@
       (place C1 128270 -105410 front 0 (PN 0.1u))
     )
     (component Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm
-      (place C2 137160 -80010 front 180 (PN 22p))
+      (place C2 135890 -80010 front 180 (PN 22p))
     )
     (component Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm::1
-      (place C3 114300 -80010 front 0 (PN 22p))
+      (place C3 107950 -80010 front 0 (PN 22p))
     )
     (component LED_THT:LED_D3.0mm
       (place D1 127000 -73660 front 180 (PN YELLOW))
@@ -58,7 +58,7 @@
       (place U1 146050 -87480 front 270 (PN ATmega48A/PA/88A/PA/168A/PA/328/P))
     )
     (component "Crystal:Resonator-2Pin_W7.0mm_H2.5mm"
-      (place Y1 128270 -80010 front 180 (PN XTAL))
+      (place Y1 124460 -80010 front 180 (PN XTAL))
     )
   )
   (library
