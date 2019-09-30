@@ -1,9 +1,9 @@
 # Quartz crystal module
 electronics workshop
 
-Hi, my Dear Friends!
+Hi, My Dear Friends!
 
-Here we have s sub-project for ATmega adapter v3. This folder contains project files, including Gerber files. All required information is included in the documentation.
+Here we have s sub-project for ATmega adapter v3. This folder contains project files, including Gerber files. I have included all the necessary information in the documentation.
 
 Feel free and share this project with your friends!
 
