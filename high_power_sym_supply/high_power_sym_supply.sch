@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "AC-DC hight power supply"
+Title "AC/DC high power supply"
 Date "2019-10-05"
 Rev "1.0"
 Comp "mgr inż. Paweł Sobótka"
@@ -289,6 +289,60 @@ Wire Wire Line
 	5350 3250 5350 3100
 Text Notes 3150 3350 2    79   ~ 0
 AC input\nmax 2x24V 4A
-Text Notes 7450 4450 0    79   ~ 0
-All polarized capacitors: min 63V\nall rest capacitors: min 100V\nLED - standard led diode(red colour)
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D995407
+P 8300 2650
+F 0 "H1" H 8400 2696 50  0000 L CNN
+F 1 "M3.2" H 8400 2605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8300 2650 50  0001 C CNN
+F 3 "~" H 8300 2650 50  0001 C CNN
+	1    8300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D996BC1
+P 8300 2900
+F 0 "H2" H 8400 2946 50  0000 L CNN
+F 1 "M3.2" H 8400 2855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8300 2900 50  0001 C CNN
+F 3 "~" H 8300 2900 50  0001 C CNN
+	1    8300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D996F3B
+P 8750 2650
+F 0 "H3" H 8850 2696 50  0000 L CNN
+F 1 "M3.2" H 8850 2605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8750 2650 50  0001 C CNN
+F 3 "~" H 8750 2650 50  0001 C CNN
+	1    8750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D9971A1
+P 8750 2900
+F 0 "H4" H 8850 2946 50  0000 L CNN
+F 1 "M3.2" H 8850 2855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8750 2900 50  0001 C CNN
+F 3 "~" H 8750 2900 50  0001 C CNN
+	1    8750 2900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8150 2500 8150 3050
+Wire Notes Line
+	8150 3050 9100 3050
+Wire Notes Line
+	9100 3050 9100 2500
+Wire Notes Line
+	9100 2500 8150 2500
+Text Notes 8150 2500 0    59   ~ 0
+Mounting elements
+Text Notes 7550 4800 0    79   ~ 0
+All polarized capacitors: min 63V\nall rest capacitors: min 100V\nall resistor: 0.250W \nLED - standard led diode(red colour)\nGraetz Bridge: with package KB
 $EndSCHEMATC
