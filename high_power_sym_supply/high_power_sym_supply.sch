@@ -344,5 +344,13 @@ Wire Notes Line
 Text Notes 8150 2500 0    59   ~ 0
 Mounting elements
 Text Notes 7550 4800 0    79   ~ 0
-All polarized capacitors: min 63V\nall rest capacitors: min 100V\nall resistor: 0.250W \nLED - standard led diode(red colour)\nGraetz Bridge: with package KB
+All polarized capacitors: min 63V\nall rest capacitors: min 100V\nall resistor: 0.250W \nR1, R2 :  in range: 2k2...5k6\nresistance depends on output voltage\nLED - standard led diode(red colour)\nGraetz Bridge: with package KB, Vrms : min 35V
+Wire Notes Line
+	2000 2000 10650 2000
+Wire Notes Line
+	10650 2000 10650 5000
+Wire Notes Line
+	10650 5000 2000 5000
+Wire Notes Line
+	2000 5000 2000 2000
 $EndSCHEMATC
