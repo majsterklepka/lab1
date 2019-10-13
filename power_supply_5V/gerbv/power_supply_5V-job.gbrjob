@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.4-3.fc30"
     },
-    "CreationDate":  "2019-09-18T18:45:05+02:00"
+    "CreationDate":  "2019-10-13T17:17:29+02:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "power_supply_5V",
       "GUID": "706f7765-725f-4737-9570-706c795f3556",
-      "Revision": "1.0"
+      "Revision": "1.2"
     },
     "Size":
     {
@@ -32,7 +32,7 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  1.000
+      "MinLineWidth":  0.500
     }
   ],
   "FilesAttributes":
@@ -48,16 +48,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "power_supply_5V-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "power_supply_5V-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "power_supply_5V-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
@@ -66,11 +56,6 @@
       "Path":  "power_supply_5V-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "power_supply_5V-F_Mask.gbr",
-      "FileFunction":  "SolderMask,Top",
-      "FilePolarity":  "Negative"
     },
     {
       "Path":  "power_supply_5V-B_Mask.gbr",
@@ -95,14 +80,6 @@
       "Notes":  "Layer F.SilkS"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
-    },
-    {
-      "Type":  "SolderMask",
-      "Notes":  "Layer F.Mask"
-    },
-    {
       "Type":  "Copper",
       "Notes":  "Layer F.Cu"
     },
@@ -118,10 +95,6 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
-    },
-    {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",

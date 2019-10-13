@@ -898,7 +898,7 @@
     (arrow2a (pts (xy 76.2 132.08) (xy 77.326504 132.666421)))
     (arrow2b (pts (xy 76.2 132.08) (xy 77.326504 131.493579)))
   )
-  (gr_text "Keypad Lab1\nby SQ7EQE" (at 132.08 81.28) (layer Dwgs.User)
+  (gr_text "Keypad Lab1\nby SQ7EQE" (at 158.75 118.11) (layer Dwgs.User)
     (effects (font (size 2.5 2.5) (thickness 0.5)))
   )
   (gr_line (start 76.2 127) (end 76.2 76.2) (layer Edge.Cuts) (width 0.05) (tstamp 5D871610))
