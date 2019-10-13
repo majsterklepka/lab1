@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.4-3.fc30"
     },
-    "CreationDate":  "2019-09-27T12:28:18+02:00"
+    "CreationDate":  "2019-10-13T14:31:29+02:00"
   },
   "GeneralSpecs":
   {
@@ -38,6 +38,11 @@
   "FilesAttributes":
   [
     {
+      "Path":  "crystal_connector-F_Cu.gbr",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
       "Path":  "crystal_connector-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
@@ -46,6 +51,11 @@
       "Path":  "crystal_connector-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "crystal_connector-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
     },
     {
       "Path":  "crystal_connector-Edge_Cuts.gbr",
@@ -66,7 +76,20 @@
     },
     {
       "Type":  "Copper",
+      "Notes":  "Layer F.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
       "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
     }
   ]
 }
