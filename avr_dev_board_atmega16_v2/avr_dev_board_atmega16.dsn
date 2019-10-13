@@ -39,7 +39,7 @@
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
       (place R3 134948 -114455 front 270 (PN 330))
       (place R2 129852 -71737.2 front 0 (PN 1k))
-      (place R1 53213 -99936.3 front 180 (PN 10k))
+      (place R1 50990.5 -92760.8 front 270 (PN 10k))
     )
     (component "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
       (place J2 132265 -59436 front 180 (PN "DC 7-15V"))
@@ -50,7 +50,7 @@
     )
     (component "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
       (place D3 118052 -64226.4 front 270 (PN 1N4001))
-      (place D1 45796.2 -96520 front 270 (PN 1N4001))
+      (place D1 44005.5 -92760.8 front 270 (PN 1N4001))
     )
     (component Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
       (place C10 132939 -104325 front 180 (PN 100n))
@@ -1063,7 +1063,7 @@
     (net "Net-(D4-Pad2)"
       (pins R3-2 D4-2)
     )
-    (class kicad_default "" "Net-(C8-Pad1)"
+    (class kicad_default ""
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
