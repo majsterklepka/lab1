@@ -19,4 +19,4 @@ And here you can see a 2D view of PCB layout:
 
 Have fun & share that project with your friends!
 
-_mgr inż. Paweł Sobótka (SQ7EQE)_
+_MSc. Paweł Sobótka (SQ7EQE)_

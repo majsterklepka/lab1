@@ -13,4 +13,4 @@ What will be included into repository:
 
 Be have a fun with that repo!
 
-_mgr inż. Paweł Sobótka (SQ7EQE)_
+_MSc Paweł Sobótka (SQ7EQE)_

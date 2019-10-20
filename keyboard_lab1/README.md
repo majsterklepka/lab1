@@ -15,4 +15,4 @@ Here we have a 3D view of PCB layout yet:
 
 Especially for you, I prepare a 2D image with black&white view of PCB, for build yours own board with thermotransfer method here is an image(in PNG image format 300dpi resolution): [pict. 4](https://github.com/majsterklepka/lab1/raw/master/keyboard_lab1/drawings/keyboard_lab1-prep-brd.png "PCB Layout Image")
 
-_mgr inż. Paweł Sobótka (SQ7EQE)_
+_MSc. Paweł Sobótka (SQ7EQE)_

@@ -30,4 +30,4 @@ These all programmers, their projects are published in my repository [here](http
 
 Have a fun and do not wake up the neighbors during night fun, because this occupation is very addictive and exciting! Feel free and share this project with friends!
 
-_mgr inż. Paweł Sobótka (SQ7EQE)_ 
+_MSc. Paweł Sobótka (SQ7EQE)_ 

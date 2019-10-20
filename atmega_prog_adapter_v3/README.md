@@ -7,4 +7,4 @@ Here we have the next version of my ATmega adapter project. This project has exc
 
 Feel free and share this project with your friends!
 
-_mgr inż. Paweł Sobótka (SQ7EQE)_
+_MSc. Paweł Sobótka (SQ7EQE)_

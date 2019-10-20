@@ -17,4 +17,4 @@ Of course, all project files are included in this folder, with Gerber picture to
 
 Have a fun with that project! Be carefully of hot iron!
 
-_mgr inż. Paweł Sobótka (SQ7EQE)_
+_MSc. Paweł Sobótka (SQ7EQE)_

@@ -17,4 +17,4 @@ Of course, you can look inside drawings/ folder, you see there a PDF documents.
 
 Have a fun with that project!
 
-_mgr inż. Paweł Sobótka (SQ7EQE)_
+_MSc. Paweł Sobótka (SQ7EQE)_

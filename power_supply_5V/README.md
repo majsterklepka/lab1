@@ -21,5 +21,5 @@ PCB is single side, easy to make in own workshop. Not all projects are that crea
 
 Be have a fun with that project and be happy!
 
-_mgr inż. Paweł Sobótka (SQ7EQE)_ 
+_MSc. Paweł Sobótka (SQ7EQE)_ 
 
