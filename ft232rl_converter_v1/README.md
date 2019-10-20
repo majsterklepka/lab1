@@ -10,7 +10,7 @@ Today I will tell you about the latest project, USB-TTL-UART-FT232RL converter. 
 The following elements are needed to build:
 
 - printed circuit board, Gerber files are available in the folder plot /
-- FT232RL, the system can be ordered online,
+- FT232RL, the device can be ordered online,
 - 100nF x 2 capacitor,
 - 10nF x 1 capacitor,
 - 10k x 1 resistor,
