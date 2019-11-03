@@ -1,0 +1,15 @@
+Reference, Quantity, Value, Manufacturer, Package, Part, Vendor
+C1 ,1,10u,KEMET,SMD1206, C1206C106K9RACTU ,https://www.tme.eu/
+C2 ,1,10nf,other,SMD1206,KC10nF_1206,https://sklep.avt.pl/
+C3 C4 ,2,100nf,other,SMD1206,KC100nF_1206,https://sklep.avt.pl/
+D1 ,1,RXLED,others,SMD1206,LED-01458,https://botland.com.pl/
+D2 ,1,TXLED,others,SMD1206,LED-01458,https://botland.com.pl/
+FB1 ,1,NFW31SP506X1E4L,MURATA,SMD1206,NFW31SP506X1E4L,https://www.tme.eu/
+J1 ,1,KAB-00422,other,Molex_47346-0001,KAB-00422,https://botland.com.pl/
+J2 ,1,KAB-00205,other,,KAB-00205,https://botland.com.pl/
+J3 ,1,KAB-00192,other,,KAB-00192,https://botland.com.pl/
+JP1 ,1,KAB-00192,various,,KAB-00192,https://botland.com.pl/
+R1 R2 ,2,270,various,SMD0805,R270 805,https://sklep.avt.pl/
+R3 ,1,10k,other,SMD1206,R10K_1206,https://sklep.avt.pl/
+U1 ,1,FT232RL,ftdichip,SSOP-28,FT232RL,https://sklep.avt.pl/
+Y1 ,1,12MHz,other,HC49-U,Q12MHZ_N,https://sklep.avt.pl/

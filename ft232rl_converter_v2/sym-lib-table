@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name USB-TTL-UART-FT232RL)(type Legacy)(uri ${KIPRJMOD}/library/fr232rl_converter.lib)(options "")(descr ""))
+  (lib (name Logo)(type Legacy)(uri ${KIPRJMOD}/library/project_ver_2.lib)(options "")(descr "project logo"))
+  (lib (name logo_v2)(type Legacy)(uri ${KIPRJMOD}/library/logo_v2.lib)(options "")(descr "author logo"))
+)

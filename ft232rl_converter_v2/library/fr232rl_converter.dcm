@@ -1,0 +1,87 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C1206C106K9RACTU
+D Unpolarized capacitor
+K cap capacitor
+F https://www.tme.eu/Document/0e782ad52ceef0af32c66441ae02d24a/KEM_C1002_X7R_SMD.pdf
+$ENDCMP
+#
+$CMP FT232RL
+D USB to Serial Interface, SSOP-28
+K USB Serial
+F http://www.ftdichip.com/Products/ICs/FT232RL.htm
+$ENDCMP
+#
+$CMP KAB-00192_1x03
+D Dual jumper, normally closed
+K jumper bridge link NC
+F ~
+$ENDCMP
+#
+$CMP KAB-00192_1x05
+D Generic connector, single row, 01x05
+K connector
+F ~
+$ENDCMP
+#
+$CMP KAB-00205_1x05
+D Generic connector, single row, 01x05, angled
+K connector
+F ~
+$ENDCMP
+#
+$CMP KAB-00422
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP KC100nF_1206
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP KC10nF_1206
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP LED-01458
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP NFW31SP506X1E4L
+D Ferrite bead
+K L ferrite bead inductor filter
+F https://www.tme.eu/Document/bc1298c6e29b8d9a7dfd8ac2e9b1c15d/nfw31sp106x1e4l.pdf
+$ENDCMP
+#
+$CMP Q12MHZ_N
+D Two pin crystal
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP R10K_1206
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R270_805
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+#End Doc Library

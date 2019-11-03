@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/majsterklepka/Dokumenty/Kicad/ft232rl_converter_v2/ft232rl_converter_v2.sch</source>
+    <date>nie, 3 lis 2019, 17:52:51</date>
+    <tool>Eeschema 5.1.4-3.fc31</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>USB TTL UART FT232RL converter ver. 2.0</title>
+        <company>MSc. Paweł Sobótka</company>
+        <rev>2.0</rev>
+        <date>2019-10-31</date>
+        <source>ft232rl_converter_v2.sch</source>
+        <comment number="1" value="GNU GPLv3"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>FT232RL</value>
+      <footprint>Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</footprint>
+      <datasheet>http://www.ftdichip.com/Products/ICs/FT232RL.htm</datasheet>
+      <fields>
+        <field name="Manufacturer">ftdichip</field>
+        <field name="Package">SSOP-28</field>
+        <field name="Part">FT232RL</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="FT232RL" description="USB to Serial Interface, SSOP-28"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA7B529</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>KAB-00422</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex_47346-0001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">other</field>
+        <field name="Package">Molex_47346-0001</field>
+        <field name="Part">KAB-00422</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="KAB-00422" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA7C42B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">other</field>
+        <field name="Package">SMD1206</field>
+        <field name="Part">KC10nF_1206</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="KC10nF_1206" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA7DC5B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">other</field>
+        <field name="Package">SMD1206</field>
+        <field name="Part">KC100nF_1206</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="KC100nF_1206" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA7DF0D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">other</field>
+        <field name="Package">SMD1206</field>
+        <field name="Part">KC100nF_1206</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="KC100nF_1206" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA7E187</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/Document/0e782ad52ceef0af32c66441ae02d24a/KEM_C1002_X7R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">SMD1206</field>
+        <field name="Part"> C1206C106K9RACTU </field>
+        <field name="Vendor">https://www.tme.eu/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="C1206C106K9RACTU" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA7E420</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">other</field>
+        <field name="Package">SMD1206</field>
+        <field name="Part">R10K_1206</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="R10K_1206" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA7E7B9</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>KAB-00192</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">various</field>
+        <field name="Part">KAB-00192</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="KAB-00192_1x03" description="Dual jumper, normally closed"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA7D7B5</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>NFW31SP506X1E4L</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.tme.eu/Document/bc1298c6e29b8d9a7dfd8ac2e9b1c15d/nfw31sp106x1e4l.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">MURATA</field>
+        <field name="Package">SMD1206</field>
+        <field name="Part">NFW31SP506X1E4L</field>
+        <field name="Vendor">https://www.tme.eu/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="NFW31SP506X1E4L" description="Ferrite bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA89008</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>KAB-00205</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">other</field>
+        <field name="Part">KAB-00205</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="KAB-00205_1x05" description="Generic connector, single row, 01x05, angled"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA9DBB4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>KAB-00192</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">other</field>
+        <field name="Part">KAB-00192</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="KAB-00192_1x05" description="Generic connector, single row, 01x05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAA5F16</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHz</value>
+      <footprint>Crystal:Crystal_HC49-U_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">other</field>
+        <field name="Package">HC49-U</field>
+        <field name="Part">Q12MHZ_N</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="Q12MHZ_N" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA8973A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>TXLED</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">others</field>
+        <field name="Package">SMD1206</field>
+        <field name="Part">LED-01458</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="LED-01458" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBD5B4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RXLED</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">others</field>
+        <field name="Package">SMD1206</field>
+        <field name="Part">LED-01458</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="LED-01458" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC2FC1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">various</field>
+        <field name="Package">SMD0805</field>
+        <field name="Part">R270 805</field>
+        <field name="Vendor">https://sklep.avt.pl</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="R270_805" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC33B2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">various</field>
+        <field name="Package">SMD0805</field>
+        <field name="Part">R270 805</field>
+        <field name="Vendor">https://sklep.avt.pl</field>
+      </fields>
+      <libsource lib="USB-TTL-UART-FT232RL" part="R270_805" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC3D57</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="USB-TTL-UART-FT232RL" part="C1206C106K9RACTU">
+      <description>Unpolarized capacitor</description>
+      <docs>https://www.tme.eu/Document/0e782ad52ceef0af32c66441ae02d24a/KEM_C1002_X7R_SMD.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C1206C106K9RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Part"> C1206C106K9RACTU </field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">SMD1206</field>
+        <field name="Vendor">https://www.tme.eu/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="FT232RL">
+      <description>USB to Serial Interface, SSOP-28</description>
+      <docs>http://www.ftdichip.com/Products/ICs/FT232RL.htm</docs>
+      <footprints>
+        <fp>SSOP*5.3x10.2mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT232RL</field>
+        <field name="Footprint">Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+        <field name="Part">FT232RL</field>
+        <field name="Manufacturer">ftdichip</field>
+        <field name="Package">SSOP-28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="DTR" type="output"/>
+        <pin num="3" name="RTS" type="output"/>
+        <pin num="4" name="VCCIO" type="power_in"/>
+        <pin num="5" name="RXD" type="input"/>
+        <pin num="6" name="RI" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="9" name="DCR" type="input"/>
+        <pin num="10" name="DCD" type="input"/>
+        <pin num="11" name="CTS" type="input"/>
+        <pin num="12" name="CBUS4" type="BiDi"/>
+        <pin num="13" name="CBUS2" type="BiDi"/>
+        <pin num="14" name="CBUS3" type="BiDi"/>
+        <pin num="15" name="USBD+" type="BiDi"/>
+        <pin num="16" name="USBD-" type="BiDi"/>
+        <pin num="17" name="3V3OUT" type="power_out"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="~RESET~" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="CBUS1" type="BiDi"/>
+        <pin num="23" name="CBUS0" type="BiDi"/>
+        <pin num="25" name="AGND" type="power_in"/>
+        <pin num="26" name="TEST" type="input"/>
+        <pin num="27" name="OSCI" type="input"/>
+        <pin num="28" name="OSCO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="KAB-00192_1x03">
+      <description>Dual jumper, normally closed</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">KAB-00192_1x03</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+        <field name="Manufacturer">various</field>
+        <field name="Part">KAB-00192</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="KAB-00192_1x05">
+      <description>Generic connector, single row, 01x05</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">KAB-00192_1x05</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+        <field name="Part">KAB-00192</field>
+        <field name="Manufacturer">other</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="KAB-00205_1x05">
+      <description>Generic connector, single row, 01x05, angled</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">KAB-00205_1x05</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+        <field name="Manufacturer">other</field>
+        <field name="Part">KAB-00205</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="KAB-00422">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">KAB-00422</field>
+        <field name="Footprint">Connector_USB:USB_Micro-B_Molex_47346-0001</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+        <field name="Part">KAB-00422</field>
+        <field name="Manufacturer">other</field>
+        <field name="Package">Molex_47346-0001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="KC100nF_1206">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">KC100nF_1206</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+        <field name="Part">KC100nF_1206</field>
+        <field name="Manufacturer">other</field>
+        <field name="Package">SMD1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="KC10nF_1206">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">KC10nF_1206</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+        <field name="Part">KC10nF_1206</field>
+        <field name="Manufacturer">other</field>
+        <field name="Package">SMD1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="LED-01458">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-01458</field>
+        <field name="Footprint">Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Vendor">https://botland.com.pl/</field>
+        <field name="Manufacturer">others</field>
+        <field name="Part">LED-01458</field>
+        <field name="Package">SMD1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="NFW31SP506X1E4L">
+      <description>Ferrite bead</description>
+      <docs>https://www.tme.eu/Document/bc1298c6e29b8d9a7dfd8ac2e9b1c15d/nfw31sp106x1e4l.pdf</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">NFW31SP506X1E4L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Part">NFW31SP506X1E4L</field>
+        <field name="Manufacturer">MURATA</field>
+        <field name="Package">SMD1206</field>
+        <field name="Vendor">https://www.tme.eu/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="Q12MHZ_N">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Q12MHZ_N</field>
+        <field name="Footprint">Crystal:Crystal_HC49-U_Vertical</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+        <field name="Part">Q12MHZ_N</field>
+        <field name="Manufacturer">other</field>
+        <field name="Package">HC49-U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="R10K_1206">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R10K_1206</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Vendor">https://sklep.avt.pl/</field>
+        <field name="Manufacturer">other</field>
+        <field name="Part">R10K_1206</field>
+        <field name="Package">SMD1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB-TTL-UART-FT232RL" part="R270_805">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R270_805</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Vendor">https://sklep.avt.pl</field>
+        <field name="Manufacturer">various</field>
+        <field name="Part">R270 805</field>
+        <field name="Package">SMD0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="USB-TTL-UART-FT232RL">
+      <uri>/home/majsterklepka/Dokumenty/Kicad/ft232rl_converter_v2/library/fr232rl_converter.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/TXD">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="2" name="/RXD">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="3" name="/RTS#">
+      <node ref="U1" pin="3"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="4" name="/CTS#">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="5" name="/DTR#">
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="6" name="/DSR#">
+      <node ref="U1" pin="9"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="7" name="/DCD#">
+      <node ref="U1" pin="10"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="8" name="/RI#">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="9" name="/VCCIO">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="J2" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U1" pin="21"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="17" name="/TXLED#">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="18" name="/RXLED#">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="19" name="/PWREN#">
+      <node ref="U1" pin="14"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="21" name="Net-(C2-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C3-Pad1)">
+      <node ref="JP1" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="16"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad27)">
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="26" name="VCC">
+      <node ref="C1" pin="1"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+  </nets>
+</export>
