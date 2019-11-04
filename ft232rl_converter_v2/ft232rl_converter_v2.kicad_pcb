@@ -10,6 +10,15 @@
   )
 
   (page A4)
+  (title_block
+    (title "PCB project FT232RL USB/TTL/UART converter ver. 2.0")
+    (date 2019-11-03)
+    (rev 1.0)
+    (company "MSc. Paweł Sobótka")
+    (comment 1 "GNU GPLv3")
+    (comment 2 "double side laminate FR4 tick 1.6 mm")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
