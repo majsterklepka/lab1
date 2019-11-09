@@ -1,0 +1,230 @@
+EESchema Schematic File Version 4
+LIBS:LED_display-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Experimental CC LED Display"
+Date "2019-11-09"
+Rev "1.0"
+Comp "MSc. Paweł Sobótka"
+Comment1 "GNU GPLv3"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5D8CCE3F
+P 4300 2850
+F 0 "R1" V 4093 2850 50  0000 C CNN
+F 1 "1k" V 4184 2850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4230 2850 50  0001 C CNN
+F 3 "~" H 4300 2850 50  0001 C CNN
+	1    4300 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D8CD0F8
+P 4300 3150
+F 0 "R2" V 4093 3150 50  0000 C CNN
+F 1 "1k" V 4184 3150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4230 3150 50  0001 C CNN
+F 3 "~" H 4300 3150 50  0001 C CNN
+	1    4300 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D8CDE7A
+P 4300 3450
+F 0 "R3" V 4093 3450 50  0000 C CNN
+F 1 "1k" V 4184 3450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4230 3450 50  0001 C CNN
+F 3 "~" H 4300 3450 50  0001 C CNN
+	1    4300 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D8CE099
+P 4300 3750
+F 0 "R4" V 4093 3750 50  0000 C CNN
+F 1 "1k" V 4184 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4230 3750 50  0001 C CNN
+F 3 "~" H 4300 3750 50  0001 C CNN
+	1    4300 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D8CE202
+P 4300 4050
+F 0 "R5" V 4093 4050 50  0000 C CNN
+F 1 "1k" V 4184 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4230 4050 50  0001 C CNN
+F 3 "~" H 4300 4050 50  0001 C CNN
+	1    4300 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D8CE3D0
+P 4300 4350
+F 0 "R6" V 4093 4350 50  0000 C CNN
+F 1 "1k" V 4184 4350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4230 4350 50  0001 C CNN
+F 3 "~" H 4300 4350 50  0001 C CNN
+	1    4300 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5D8CE62D
+P 4300 4650
+F 0 "R7" V 4093 4650 50  0000 C CNN
+F 1 "1k" V 4184 4650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4230 4650 50  0001 C CNN
+F 3 "~" H 4300 4650 50  0001 C CNN
+	1    4300 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D8CE785
+P 4300 4950
+F 0 "R8" V 4093 4950 50  0000 C CNN
+F 1 "1k" V 4184 4950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4230 4950 50  0001 C CNN
+F 3 "~" H 4300 4950 50  0001 C CNN
+	1    4300 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 2850 5500 2850
+Wire Wire Line
+	4450 3150 4700 3150
+Wire Wire Line
+	4700 3150 4700 2950
+Wire Wire Line
+	4700 2950 5500 2950
+Wire Wire Line
+	4450 3450 4800 3450
+Wire Wire Line
+	4800 3450 4800 3050
+Wire Wire Line
+	4800 3050 5500 3050
+Wire Wire Line
+	4450 3750 4900 3750
+Wire Wire Line
+	4900 3750 4900 3150
+Wire Wire Line
+	4900 3150 5500 3150
+Wire Wire Line
+	4450 4050 5000 4050
+Wire Wire Line
+	5000 4050 5000 3250
+Wire Wire Line
+	5000 3250 5500 3250
+Wire Wire Line
+	4450 4350 5100 4350
+Wire Wire Line
+	5100 4350 5100 3350
+Wire Wire Line
+	5100 3350 5500 3350
+Wire Wire Line
+	4450 4650 5200 4650
+Wire Wire Line
+	5200 4650 5200 3450
+Wire Wire Line
+	5200 3450 5500 3450
+Wire Wire Line
+	4450 4950 5350 4950
+Wire Wire Line
+	5350 4950 5350 3550
+Wire Wire Line
+	5350 3550 5500 3550
+Wire Wire Line
+	4150 2850 3400 2850
+Wire Wire Line
+	3400 2850 3400 3450
+Wire Wire Line
+	3400 3450 3300 3450
+Wire Wire Line
+	4150 3150 3500 3150
+Wire Wire Line
+	3500 3150 3500 3550
+Wire Wire Line
+	3500 3550 3300 3550
+Wire Wire Line
+	4150 3450 3650 3450
+Wire Wire Line
+	3650 3450 3650 3650
+Wire Wire Line
+	3650 3650 3300 3650
+Wire Wire Line
+	4150 3750 3300 3750
+Wire Wire Line
+	4150 4050 3950 4050
+Wire Wire Line
+	3950 4050 3950 3850
+Wire Wire Line
+	3950 3850 3300 3850
+Wire Wire Line
+	4150 4350 3800 4350
+Wire Wire Line
+	3800 4350 3800 3950
+Wire Wire Line
+	3800 3950 3300 3950
+Wire Wire Line
+	4150 4650 3650 4650
+Wire Wire Line
+	3650 4650 3650 4050
+Wire Wire Line
+	3650 4050 3300 4050
+$Comp
+L Connector:Conn_01x09_Male J1
+U 1 1 5D8D57D3
+P 3100 3850
+F 0 "J1" H 3208 4431 50  0000 C CNN
+F 1 "Conn_x9_Pin_PCB" H 3208 4340 50  0000 C CNN
+F 2 "LED_display:con_pingold_9_P2.54" H 3100 3850 50  0001 C CNN
+F 3 "~" H 3100 3850 50  0001 C CNN
+	1    3100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4950 3500 4950
+Wire Wire Line
+	3500 4950 3500 4150
+Wire Wire Line
+	3500 4150 3300 4150
+Wire Wire Line
+	6100 3550 6250 3550
+Wire Wire Line
+	6250 3550 6250 5150
+Wire Wire Line
+	6250 5150 3400 5150
+Wire Wire Line
+	3400 5150 3400 4250
+Wire Wire Line
+	3400 4250 3300 4250
+Wire Wire Line
+	6100 3450 6250 3450
+Wire Wire Line
+	6250 3450 6250 3550
+Connection ~ 6250 3550
+$Comp
+L led_display:OPD-S5621G-BW U1
+U 1 1 5D8E557A
+P 5800 3150
+F 0 "U1" H 5800 3817 50  0000 C CNN
+F 1 "OPD-S5621G-BW" H 5800 3726 50  0000 C CNN
+F 2 "LED_display:led_0.56" H 5800 2600 50  0001 C CNN
+F 3 "https://botland.com.pl/index.php?controller=attachment&id_attachment=1778" H 5400 3700 50  0001 C CNN
+	1    5800 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

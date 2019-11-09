@@ -1,0 +1,227 @@
+(pcb /home/majsterklepka/Dokumenty/Kicad/LED_display/LED_display.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.4-3.fc31")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  165100 -124460  124460 -124460  124460 -71120  165100 -71120
+            165100 -124460)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 400)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component LED_display:con_pingold_9_P2.54
+      (place J1 137160 -116840 front 0 (PN Conn_01x09_Male))
+    )
+    (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+      (place R1 139700 -81280 front 270 (PN 1k))
+      (place R2 144780 -81280 front 270 (PN 1k))
+      (place R3 144780 -96520 front 270 (PN 1k))
+      (place R4 149860 -96520 front 270 (PN 1k))
+      (place R5 154940 -96520 front 270 (PN 1k))
+      (place R6 129540 -81280 front 270 (PN 1k))
+      (place R7 134620 -81280 front 270 (PN 1k))
+      (place R8 160020 -96520 front 270 (PN 1k))
+    )
+    (component LED_display:led_0.56
+      (place U1 154940 -83820 front 0 (PN "OPD-S5621G-BW"))
+    )
+  )
+  (library
+    (image LED_display:con_pingold_9_P2.54
+      (outline (path signal 120  25400 3810  25400 -3810))
+      (outline (path signal 120  25400 -3810  -1270 -3810))
+      (outline (path signal 120  -1270 -3810  -1270 3810))
+      (outline (path signal 120  -1270 3810  25400 3810))
+      (outline (path signal 120  -1270 3810  25400 3810))
+      (outline (path signal 120  25400 3810  25400 -3810))
+      (outline (path signal 120  25400 -3810  -1270 -3810))
+      (outline (path signal 120  -1270 -3810  -1270 3810))
+      (outline (path signal 120  -1270 1270  25400 1270))
+      (pin Rect[A]Pad_1524x1524_um 1 0 0)
+      (pin Round[A]Pad_1524_um 2 2540 0)
+      (pin Round[A]Pad_1524_um 3 5080 0)
+      (pin Round[A]Pad_1524_um 4 7620 0)
+      (pin Round[A]Pad_1524_um 5 10160 0)
+      (pin Round[A]Pad_1524_um 6 12700 0)
+      (pin Round[A]Pad_1524_um 7 15240 0)
+      (pin Round[A]Pad_1524_um 8 17780 0)
+      (pin Round[A]Pad_1524_um 9 22860 0)
+      (keepout "" (circle F.Cu 1524 0 -2540))
+      (keepout "" (circle B.Cu 1524 0 -2540))
+      (keepout "" (circle F.Cu 1524 2540 -2540))
+      (keepout "" (circle B.Cu 1524 2540 -2540))
+      (keepout "" (circle F.Cu 1524 5080 -2540))
+      (keepout "" (circle B.Cu 1524 5080 -2540))
+      (keepout "" (circle F.Cu 1524 7650 -2550))
+      (keepout "" (circle B.Cu 1524 7650 -2550))
+      (keepout "" (circle F.Cu 1524 10200 -2540))
+      (keepout "" (circle B.Cu 1524 10200 -2540))
+      (keepout "" (circle F.Cu 1524 12700 -2540))
+      (keepout "" (circle B.Cu 1524 12700 -2540))
+      (keepout "" (circle F.Cu 1524 15240 -2540))
+      (keepout "" (circle B.Cu 1524 15240 -2540))
+      (keepout "" (circle F.Cu 1524 17780 -2540))
+      (keepout "" (circle B.Cu 1524 17780 -2540))
+      (keepout "" (circle F.Cu 1524 22860 -2540))
+      (keepout "" (circle B.Cu 1524 22860 -2540))
+    )
+    (image Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+      (outline (path signal 50  8570 1050  -950 1050))
+      (outline (path signal 50  8570 -1050  8570 1050))
+      (outline (path signal 50  -950 -1050  8570 -1050))
+      (outline (path signal 50  -950 1050  -950 -1050))
+      (outline (path signal 120  6680 0  5730 0))
+      (outline (path signal 120  940 0  1890 0))
+      (outline (path signal 120  5730 920  1890 920))
+      (outline (path signal 120  5730 -920  5730 920))
+      (outline (path signal 120  1890 -920  5730 -920))
+      (outline (path signal 120  1890 920  1890 -920))
+      (outline (path signal 100  7620 0  5610 0))
+      (outline (path signal 100  0 0  2010 0))
+      (outline (path signal 100  5610 800  2010 800))
+      (outline (path signal 100  5610 -800  5610 800))
+      (outline (path signal 100  2010 -800  5610 -800))
+      (outline (path signal 100  2010 800  2010 -800))
+      (pin Oval[A]Pad_1400x1400_um 2 7620 0)
+      (pin Round[A]Pad_1400_um 1 0 0)
+    )
+    (image LED_display:led_0.56
+      (outline (path signal 120  -6300.8 9500  6299.2 9500))
+      (outline (path signal 120  -6300.8 -9499.6  6299.2 -9499.6))
+      (outline (path signal 120  6299.2 9500.4  6299.2 -9499.6))
+      (outline (path signal 120  -6300 9500  -6300 -9500))
+      (outline (path signal 120  -6300.8 -9499.6  6299.2 -9499.6))
+      (outline (path signal 120  -6300 9500  6300 9500))
+      (outline (path signal 120  6299.2 9500  6299.2 -9500))
+      (outline (path signal 120  -6300 9500  -6300 -9500))
+      (outline (path signal 120  -6300 9500  6300 9500))
+      (outline (path signal 120  -6300 -9500  6300 -9500))
+      (pin Round[A]Pad_1524_um 6 4920 7620)
+      (pin Round[A]Pad_1524_um 7 2460 7620)
+      (pin Round[A]Pad_1524_um 10 -4920 7620)
+      (pin Round[A]Pad_1524_um 9 -2460 7620)
+      (pin Round[A]Pad_1524_um 8 0 7620)
+      (pin Round[A]Pad_1524_um 5 4920 -7620)
+      (pin Round[A]Pad_1524_um 4 2460 -7620)
+      (pin Rect[A]Pad_1524x1524_um 1 -4920 -7620)
+      (pin Round[A]Pad_1524_um 2 -2460 -7620)
+      (pin Round[A]Pad_1524_um 3 0 -7620)
+    )
+    (padstack Round[A]Pad_1400_um
+      (shape (circle F.Cu 1400))
+      (shape (circle B.Cu 1400))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1400x1400_um
+      (shape (path F.Cu 1400  0 0  0 0))
+      (shape (path B.Cu 1400  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x1524_um
+      (shape (rect F.Cu -762 -762 762 762))
+      (shape (rect B.Cu -762 -762 762 762))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(J1-Pad9)"
+      (pins J1-9 U1-8 U1-3)
+    )
+    (net "Net-(J1-Pad8)"
+      (pins J1-8 R8-2)
+    )
+    (net "Net-(J1-Pad7)"
+      (pins J1-7 R7-2)
+    )
+    (net "Net-(J1-Pad6)"
+      (pins J1-6 R6-2)
+    )
+    (net "Net-(J1-Pad5)"
+      (pins J1-5 R5-2)
+    )
+    (net "Net-(J1-Pad4)"
+      (pins J1-4 R4-2)
+    )
+    (net "Net-(J1-Pad3)"
+      (pins J1-3 R3-2)
+    )
+    (net "Net-(J1-Pad2)"
+      (pins J1-2 R2-2)
+    )
+    (net "Net-(J1-Pad1)"
+      (pins J1-1 R1-2)
+    )
+    (net "Net-(R1-Pad1)"
+      (pins R1-1 U1-7)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins R2-1 U1-6)
+    )
+    (net "Net-(R3-Pad1)"
+      (pins R3-1 U1-4)
+    )
+    (net "Net-(R4-Pad1)"
+      (pins R4-1 U1-2)
+    )
+    (net "Net-(R5-Pad1)"
+      (pins R5-1 U1-1)
+    )
+    (net "Net-(R6-Pad1)"
+      (pins R6-1 U1-9)
+    )
+    (net "Net-(R7-Pad1)"
+      (pins R7-1 U1-10)
+    )
+    (net "Net-(R8-Pad1)"
+      (pins R8-1 U1-5)
+    )
+    (class kicad_default "" "Net-(J1-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)"
+      "Net-(J1-Pad4)" "Net-(J1-Pad5)" "Net-(J1-Pad6)" "Net-(J1-Pad7)" "Net-(J1-Pad8)"
+      "Net-(J1-Pad9)" "Net-(R1-Pad1)" "Net-(R2-Pad1)" "Net-(R3-Pad1)" "Net-(R4-Pad1)"
+      "Net-(R5-Pad1)" "Net-(R6-Pad1)" "Net-(R7-Pad1)" "Net-(R8-Pad1)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 400)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
