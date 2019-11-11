@@ -10,6 +10,14 @@
   )
 
   (page A4)
+  (title_block
+    (title "Common Cathode LED Display")
+    (date 2019-11-11)
+    (rev 1.0)
+    (company "MSc. Paweł Sobótka")
+    (comment 1 "GNU GPLv3")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
