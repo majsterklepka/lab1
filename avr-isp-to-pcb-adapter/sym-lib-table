@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name avr-isp-to-pcb-adapter)(type Legacy)(uri ${KIPRJMOD}/lib/avr-isp-to-pcb-adapter.lib)(options "")(descr ""))
+  (lib (name logo_v2)(type Legacy)(uri ${KIPRJMOD}/lib/logo_v2.lib)(options "")(descr ""))
+)
