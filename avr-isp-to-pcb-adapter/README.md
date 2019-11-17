@@ -15,4 +15,4 @@ And, as you can see, PCB layout project:
 
 Have fun with that project!
 
-_mgr inż. Paweł Sobótka (SQ7EQE)_
+_MSc. Paweł Sobótka (SQ7EQE)_
