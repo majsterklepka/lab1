@@ -10,6 +10,15 @@
   )
 
   (page A4)
+  (title_block
+    (title "MicroUSB to PCB Adapter PCB Project")
+    (date 2019-11-19)
+    (rev 1.0)
+    (company "MSc. Paweł Sobótka")
+    (comment 1 "GNU GPLv3")
+    (comment 2 "Design by SQ7EQE")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
