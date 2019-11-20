@@ -1,9 +1,17 @@
 # MicroUSB to PCB Adapter
 electronics workshop
 
-My proposal for today: a small dimension PCB with micro USB connector, size 15mm x 24mm rounded. For what it is? If you work with microcontrollers, and contact plates, that project is dedicated for you. This is an Adapter to contact plates. Below you can see a picture with a 3D view of full design. Dimensions are fully compatible with most contact plates 
+My proposal for today: a small dimension PCB with micro USB connector, size 15mm x 24mm rounded. For what it is? If you work with microcontrollers, and contact plates, that project is dedicated for you. This is an Adapter to contact plates. Below you can see a picture with a 3D view of full design. Dimensions are fully compatible with most contact plates. My two proposal of design:
 
-![pict. 1](https://github.com/majsterklepka/lab1/raw/master/microUSB-to-pcb-adapter/drawings/microUSB-to-pcb-adapter.png "micrUsb to PCB Adpter 3D View")
+ 
+## first:
+
+![pict. 1](https://github.com/majsterklepka/lab1/raw/master/microUSB-to-pcb-adapter/drawings/microUSB-to-pcb-adapter.png "MicroUsb to PCB Adpter 3D View")
+
+## second
+
+![pict. 1a](https://github.com/majsterklepka/lab1/raw/master/microUSB-to-pcb-adapter/drawings/microUSB-to-pcb-adapter-1.png "MicroUsb to PCB Adpter 3D View")
+
 
 Schematic sheet is present below and of course, as KiCad project into this folder:
 
