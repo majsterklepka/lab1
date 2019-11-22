@@ -5,19 +5,19 @@ My proposal for today: a small dimension PCB with micro USB connector, size 10mm
  
 ## Design 3D view
 
-![pict. 1](https://github.com/majsterklepka/lab1/raw/master/microUSB-to-pcb-power-adapter/drawings/microUSB-to-pcb-power-adapter.png "MicroUsb to PCB Power Adpter 3D View")
+![pict. 1](https://github.com/majsterklepka/lab1/raw/master/microUSB-to-pcb-power-adapter-v2/drawings/microUSB-to-pcb-power-adapter.png "MicroUsb to PCB Power Adpter 3D View")
 
 ## Schematic Diagram
 
 Schematic diagram is present below and of course, as KiCad project into this folder:
 
-![pict. 2](https://github.com/majsterklepka/lab1/raw/master/microUSB-to-pcb-power-adapter/drawings/microUSB-to-pcb-power-adapter-diagram.png "MicroUSB to PCB Power Adapter Schematic Diagram")
+![pict. 2](https://github.com/majsterklepka/lab1/raw/master/microUSB-to-pcb-power-adapter-v2/drawings/microUSB-to-pcb-power-adapter-diagram.png "MicroUSB to PCB Power Adapter Schematic Diagram")
 
 ## PCB Layout (2D)
 
 And, as you can see, PCB layout project:
 
-![pict. 3]( https://github.com/majsterklepka/lab1/raw/master/microUSB-to-pcb-power-adapter/drawings/microUSB-to-pcb-power-adapter-brd.png "MicroUSB to PCB Power Adapter PCB 2D View")
+![pict. 3]( https://github.com/majsterklepka/lab1/raw/master/microUSB-to-pcb-power-adapter-v2/drawings/microUSB-to-pcb-power-adapter-brd.png "MicroUSB to PCB Power Adapter PCB 2D View")
 
 Have fun with that project! Feel free and share that project with friends. Project is licensed under terms of two GNU license:
 
