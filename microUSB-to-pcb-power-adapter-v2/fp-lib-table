@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name microUSB-to-pcb-power-adapter)(type KiCad)(uri ${KIPRJMOD}/lib/microUSB-to-pcb-power-adapter.pretty)(options "")(descr "Project footprints library"))
+)

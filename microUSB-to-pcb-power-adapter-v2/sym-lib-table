@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name logo_v2)(type Legacy)(uri ${KIPRJMOD}/lib/logo_v2.lib)(options "")(descr LOGO))
+  (lib (name pinheaders)(type Legacy)(uri ${KIPRJMOD}/lib/pinheaders.lib)(options "")(descr PinHeader))
+)
