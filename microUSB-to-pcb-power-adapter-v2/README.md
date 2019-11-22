@@ -1,7 +1,7 @@
 # MicroUSB to PCB Adapter
 electronics workshop
 
-My proposal for today: a small dimension PCB with micro USB connector, size 10mm x 26mm rounded. For who it is? If you work with microcontrollers, USB Power Supply, and contact plates, that project is dedicated for you. This is an Adapter to contact plates. Dimensions are fully compatible with most contact plates. 
+My proposal for today: a small dimension PCB with micro USB connector, size 10 mm x 16 mm rounded. For who it is? If you work with microcontrollers, USB Power Supply, and contact plates, that project is dedicated for you. This is an Adapter to contact plates. Dimensions are fully compatible with most contact plates. 
  
 ## Design 3D view
 
