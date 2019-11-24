@@ -25,7 +25,6 @@ Contents of that repository are licensed under terms of:
 
 **Note:**  
 > _Carefully read license, remember the Author, his work is worth something! If you don't want to praise, don't criticize. You can freely modify the projects contained in this repository, remember that!_
-{: title="Author Note" }
 
 **© Paweł Sobótka, 2019 all rights reserved**
 
