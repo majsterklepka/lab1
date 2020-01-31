@@ -398,7 +398,7 @@ U 1 1 5E28C15A
 P 9650 4500
 F 0 "J2" H 9730 4542 50  0000 L CNN
 F 1 "Probe" H 9730 4451 50  0000 L CNN
-F 2 "logical-probe-1:probe_1mm" H 9650 4500 50  0001 C CNN
+F 2 "logical-probe-1:probe_1mm_pcb" H 9650 4500 50  0001 C CNN
 F 3 "~" H 9650 4500 50  0001 C CNN
 	1    9650 4500
 	1    0    0    -1  
