@@ -7,7 +7,7 @@ Here we have the power supply for the contact plates: [pcb layout](/power-supply
 
 Schematic diagram [here](/power-supply-5V/fab/drawings/schematic-diagram-power-supply-5V.pdf "Power supply schematic diagram")
 
-3D view of PCB [here](/power-supply-5V/fab/drawings/power-supply-5V.png)
+3D view of PCB [here](/power-supply-5V/fab/drawings/power-supply-5V-cubic.png)
 
 
 _MSc. Paweł Sobótka (SQ7EQE)_  
