@@ -1,0 +1,223 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "PCB Power Supply +5V"
+Date "2020-01-29"
+Rev "1.0"
+Comp "MSc. Paweł Sobótka"
+Comment1 "GNU GPLv3"
+Comment2 "by SQ7EQE"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LM1117-5.0 U1
+U 1 1 5E319180
+P 5300 3000
+F 0 "U1" H 5300 3242 50  0000 C CNN
+F 1 "LM1117-5.0" H 5300 3151 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5300 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E319D58
+P 4500 3250
+F 0 "C1" H 4615 3296 50  0000 L CNN
+F 1 "470n" H 4615 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4538 3100 50  0001 C CNN
+F 3 "~" H 4500 3250 50  0001 C CNN
+	1    4500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E31A290
+P 6000 3250
+F 0 "C2" H 6115 3296 50  0000 L CNN
+F 1 "470n" H 6115 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6038 3100 50  0001 C CNN
+F 3 "~" H 6000 3250 50  0001 C CNN
+	1    6000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5E31AA03
+P 6500 3250
+F 0 "D2" V 6539 3133 50  0000 R CNN
+F 1 "Red" V 6448 3133 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6500 3250 50  0001 C CNN
+F 3 "~" H 6500 3250 50  0001 C CNN
+	1    6500 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E31B149
+P 6500 3650
+F 0 "R1" H 6570 3696 50  0000 L CNN
+F 1 "R" H 6570 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6430 3650 50  0001 C CNN
+F 3 "~" H 6500 3650 50  0001 C CNN
+	1    6500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5E31B56F
+P 3300 3100
+F 0 "J1" H 3218 2775 50  0000 C CNN
+F 1 "Vin" H 3218 2866 50  0000 C CNN
+F 2 "power-supply-5V:conn_v_in_2x01_508" H 3300 3100 50  0001 C CNN
+F 3 "~" H 3300 3100 50  0001 C CNN
+	1    3300 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E326863
+P 7200 3100
+F 0 "J2" H 7118 2775 50  0000 C CNN
+F 1 "+5V" H 7118 2866 50  0000 C CNN
+F 2 "power-supply-5V:conn_v_out_2x03_2.54" H 7200 3100 50  0001 C CNN
+F 3 "~" H 7200 3100 50  0001 C CNN
+	1    7200 3100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5600 3000 6000 3000
+Wire Wire Line
+	6500 3100 6500 3000
+Connection ~ 6500 3000
+Wire Wire Line
+	6500 3000 6900 3000
+Wire Wire Line
+	6500 3400 6500 3500
+Wire Wire Line
+	6000 3100 6000 3000
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3000 6500 3000
+Wire Wire Line
+	5000 3000 4500 3000
+Wire Wire Line
+	4500 3100 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4000 3000
+Wire Wire Line
+	4500 3400 4500 4000
+Connection ~ 4500 4000
+Wire Wire Line
+	5300 3300 5300 4000
+Connection ~ 5300 4000
+Wire Wire Line
+	5300 4000 4500 4000
+Wire Wire Line
+	6500 3800 6500 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4000 6000 4000
+Wire Wire Line
+	6000 3400 6000 4000
+Connection ~ 6000 4000
+Wire Wire Line
+	6000 4000 5300 4000
+$Comp
+L Device:D D1
+U 1 1 5E329131
+P 3850 3000
+F 0 "D1" H 3850 2784 50  0000 C CNN
+F 1 "D" H 3850 2875 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3850 3000 50  0001 C CNN
+F 3 "~" H 3850 3000 50  0001 C CNN
+	1    3850 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 4000 3500 3100
+Wire Wire Line
+	3500 4000 4500 4000
+Wire Wire Line
+	3700 3000 3500 3000
+$Comp
+L power:GND #PWR01
+U 1 1 5E32A520
+P 5300 4150
+F 0 "#PWR01" H 5300 3900 50  0001 C CNN
+F 1 "GND" H 5305 3977 50  0000 C CNN
+F 2 "" H 5300 4150 50  0001 C CNN
+F 3 "" H 5300 4150 50  0001 C CNN
+	1    5300 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4150 5300 4000
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5E32797B
+P 7200 3550
+F 0 "J3" H 7118 3225 50  0000 C CNN
+F 1 "+5V" H 7118 3316 50  0000 C CNN
+F 2 "power-supply-5V:conn_v_out_2x03_2.54" H 7200 3550 50  0001 C CNN
+F 3 "~" H 7200 3550 50  0001 C CNN
+	1    7200 3550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7000 3100 6800 3100
+Wire Wire Line
+	6800 3100 6800 3550
+Wire Wire Line
+	6800 4000 6500 4000
+Wire Wire Line
+	6900 3000 6900 3450
+Wire Wire Line
+	6900 3450 7000 3450
+Connection ~ 6900 3000
+Wire Wire Line
+	6900 3000 7000 3000
+Wire Wire Line
+	7000 3550 6800 3550
+Connection ~ 6800 3550
+Wire Wire Line
+	6800 3550 6800 4000
+$Comp
+L power-supply-5V:LOGO #G1
+U 1 1 5E32A489
+P 3750 4950
+F 0 "#G1" H 3750 4702 60  0001 C CNN
+F 1 "LOGO" H 3750 5198 60  0001 C CNN
+F 2 "" H 3750 4950 50  0001 C CNN
+F 3 "" H 3750 4950 50  0001 C CNN
+	1    3750 4950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3000 4500 7500 4500
+Wire Notes Line
+	7500 4500 7500 2500
+Wire Notes Line
+	7500 2500 3000 2500
+Wire Notes Line
+	3000 2500 3000 4500
+Text Notes 3000 2400 0    118  ~ 0
+PCB Power Supply +5V
+$Comp
+L power-supply-5V:formula #G2
+U 1 1 5E35957E
+P 6600 4250
+F 0 "#G2" H 6600 4125 60  0001 C CNN
+F 1 "LOGO" H 6600 4375 60  0001 C CNN
+F 2 "" H 6600 4250 118 0001 C CNN
+F 3 "" H 6600 4250 118 0001 C CNN
+	1    6600 4250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

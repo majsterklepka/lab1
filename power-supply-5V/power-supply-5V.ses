@@ -1,0 +1,283 @@
+
+(session "power-supply-5V.ses"
+  (base_design "power-supply-5V.dsn")
+  (placement
+    (resolution um 10)
+    (component "power-supply-5V:conn_v_out_2x03_2.54-a"
+      (place J3 1282700 -800100 front 0)
+      (place J2 1739900 -800100 front 0)
+    )
+    (component "power-supply-5V:conn_v_in_2x01_508"
+      (place J1 1549400 -711200 front 90)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (place C1 1485900 -800100 front 270)
+      (place C2 1358900 -800100 front 90)
+    )
+    (component Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+      (place D1 1538880 -812800 front 0)
+      (place D2 1663700 -787400 front 270)
+    )
+    (component Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+      (place R1 1612900 -787400 front 270)
+    )
+    (component "Package_TO_SOT_SMD:SOT-223"
+      (place U1 1422400 -774700 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.1.5-1.fc31")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(C1-Pad1)"
+        (wire
+          (path F.Cu 5000
+            1524005 -812800
+            1501055 -789850
+            1485900 -789850
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1445400 -806200
+            1457900 -806200
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1457900 -806200
+            1474250 -789850
+            1485900 -789850
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 8000
+            1739900 -787400
+            1627775 -787400
+            1612900 -802275
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1739900 -787400
+            1739900 -800100
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 8000
+            1739900 -774700
+            1739900 -787400
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 8000
+            1612900 -802275
+            1549400 -738775
+            1549400 -711200
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1485900 -810350
+            1503227 -827677
+            1587498 -827677
+            1612900 -802275
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1282700 -818896
+            1282700 -819424
+            1302528 -839252
+            1352348 -839252
+            1385400 -806200
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1282700 -818896
+            1282700 -825500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 8000
+            1282700 -800100
+            1282700 -818896
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 8000
+            1399400 -819950
+            1401654 -822204
+            1474046 -822204
+            1485900 -810350
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1399400 -814450
+            1399400 -819950
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1399400 -806200
+            1385400 -806200
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1385400 -806200
+            1369050 -789850
+            1358900 -789850
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1399400 -814450
+            1399400 -806200
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1282700 -774700
+            1282700 -800100
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 8000
+            1739900 -800100
+            1739900 -825500
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C2-Pad1)"
+        (wire
+          (path F.Cu 5000
+            1347305 -779422
+            1347305 -798755
+            1358900 -810350
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1308100 -778894
+            1346777 -778894
+            1347305 -779422
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1421181 -779950
+            1420653 -779422
+            1347305 -779422
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1308100 -800100
+            1308100 -825500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1765300 -774700
+            1687295 -696695
+            1492388 -696695
+            1471711 -717372
+            1471711 -729420
+            1421181 -779950
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1421181 -779950
+            1421181 -789981
+            1422400 -791200
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1765300 -774700
+            1765300 -800100
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1422400 -806200
+            1422400 -791200
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1308100 -778894
+            1308100 -800100
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 8000
+            1308100 -774700
+            1308100 -778894
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1765300 -825500
+            1752873 -837927
+            1699352 -837927
+            1663700 -802275
+          )
+        )
+        (wire
+          (path F.Cu 8000
+            1765300 -800100
+            1765300 -825500
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D1-Pad2)"
+        (wire
+          (path F.Cu 5000
+            1553755 -812800
+            1553755 -766355
+            1498600 -711200
+          )
+        )
+      )
+      (net "Net-(D2-Pad1)"
+        (wire
+          (path F.Cu 5000
+            1612900 -772525
+            1663700 -772525
+          )
+        )
+      )
+    )
+  )
+)
