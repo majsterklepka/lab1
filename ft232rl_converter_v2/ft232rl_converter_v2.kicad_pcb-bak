@@ -12,6 +12,7 @@
   (page A4)
   (title_block
     (title "PCB project FT232RL USB/TTL/UART converter ver. 2.0")
+    (date 2019-11-03)
     (rev 1.0)
     (company "MSc. Paweł Sobótka")
     (comment 1 "GNU GPLv3")

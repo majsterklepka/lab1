@@ -1,14 +1,15 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,5.1.4-3.fc30*%
-%TF.CreationDate,2019-10-19T14:32:08+02:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,5.1.6-c6e7f7d~86~ubuntu18.04.1*%
+%TF.CreationDate,2020-05-25T18:47:43+02:00*%
 %TF.ProjectId,ft232rl_converter_v1,66743233-3272-46c5-9f63-6f6e76657274,1.0*%
 %TF.SameCoordinates,PX4fefde0PY4d83c00*%
 %TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.4-3.fc30) date 2019-10-19 14:32:08*
+G04 Created by KiCad (PCBNEW 5.1.6-c6e7f7d~86~ubuntu18.04.1) date 2020-05-25 18:47:43*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
 %ADD10O,1.802000X1.802000*%
 %ADD11R,1.802000X1.802000*%
