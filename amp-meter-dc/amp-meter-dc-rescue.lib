@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0R001-bocznik
+#
+DEF 0R001-bocznik R 0 0 Y Y 1 F N
+F0 "R" 0 0 50 H V C CNN
+F1 "0R001-bocznik" 0 0 50 H V C CNN
+F2 "bocznik:bocznik-001" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -250 100 50 0 0 0 1 Normal 0 C C
+T 0 -250 -100 50 0 0 0 2 Normal 0 C C
+S -300 -45 -350 -55 1 1 6 N
+S -300 55 -350 45 1 1 6 N
+S -300 100 -400 -100 1 1 10 f
+S -40 -100 40 100 1 1 10 N
+P 5 0 1 0 -300 -50 -150 -50 -150 -200 0 -200 0 -100 N
+P 5 0 1 0 -300 50 -150 50 -150 200 0 200 0 100 N
+X + 1 150 200 150 L 50 50 1 1 P
+X - 2 150 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Voltmeter_DC_3P-voltmeters
+#
+DEF Voltmeter_DC_3P-voltmeters U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "Voltmeter_DC_3P-voltmeters" 50 -600 50 H V C CNN
+F2 "mini-voltmeter:mini-voltmeter-dc" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+DRAW
+T 900 0 -150 50 0 0 0 "mini voltmeter dc" Normal 0 C C
+S -200 250 200 -550 0 1 0 N
+X + 1 -300 150 100 R 50 50 1 1 I
+X - 2 -300 50 100 R 50 50 1 1 I
+X V 3 -300 -50 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
